@@ -30,12 +30,12 @@ def analisi(filename):
     
     
     # Searching every single important element in the file
-    with    open('Emails.txt', 'w') as femails, \
-            open('Ibans.txt', 'w') as fIBAN, \
-            open('Passwords.txt', 'w') as fpasswords, \
-            open('Credit_Cards.txt', 'w') as fcards, \
-            open('Credentials.txt', 'w') as fcredentials, \
-            open('Results.txt', 'w') as fresult:
+    with    open('Emails.txt', 'a') as femails, \
+            open('Ibans.txt', 'a') as fIBAN, \
+            open('Passwords.txt', 'a') as fpasswords, \
+            open('Credit_Cards.txt', 'a') as fcards, \
+            open('Credentials.txt', 'a') as fcredentials, \
+            open('Results.txt', 'a') as fresult:
                 
             
             #[0-9a-zA-Z]
